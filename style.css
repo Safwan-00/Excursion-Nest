@@ -1,0 +1,64 @@
+
+body{
+	height: 100%;
+    background: url("Pictures/back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: slider 30s infinite linear ;
+    
+}
+@keyframes slider{
+    0% {
+        background-image: url("Pictures/back2.jpg");
+
+    }
+    20%{
+
+        background-image: url("Pictures/back.jpg");
+    }
+    40%{
+
+        background-image: url("Pictures/back3.jpg");
+    }
+    60%{
+
+        background-image: url("Pictures/back1.jpg");
+    }
+    80%{
+
+        background-image: url("Pictures/back5.jpg");
+    }
+
+}
+.glyphicon-search{
+    font-size: 20px;
+}
+.btn-default{
+    background-color: coral;
+    width: 80px;
+    padding: 12.5px;
+}
+
+.form-control{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.navbar-header{
+    margin-left: 10px;
+}
+
+.container a:hover{
+    color:brown;
+}
+
+.container i{
+    margin-right: 6px;
+}
+
+.active{
+    background-color:rgb(238, 238, 238);
+    color: brown;
+}
